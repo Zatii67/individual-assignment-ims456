@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<title>My Resume</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-brown w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+	<div class="w3-container">
+		<a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="Close Menu"><i class="fa fa-remove"></i></a>
+		<img src="images/me.jpg" style="width:45%;" class="w3-round"><br><br>
+ 		<h4><b>RESUME</b></h4>
+		
+ 	</div>
+ 	<div class="w3-bar-block">
+	<a href="aboutme.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-lightbulb-o fa-fw w3-margin-right"></i>ABOUT ME</a>
+	<a href="homepage.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user-circle fa-fw w3-margin-right"></i>PERSONAL DETAILS</a>
+	<a href="family.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-home fa-fw w3-margin-right"></i>FAMILY BACKGROUND</a> 
+	<a href="educationalbackground.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>EDUCATIONAL BACKGROUND</a> 
+	<a href="workingexperience.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-briefcase fa-fw w3-margin-right"></i>WORKING EXPERIENCE</a>
+	<a href="skillsandlanguage.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-cyan"><i class="fa fa-wrench fa-fw w3-margin-right"></i>SKILLS & LANGUAGE</a>
+	<a href="contactme.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-address-card fa-fw w3-margin-right"></i>CONTACT ME</a>	
+	<a href="gallery.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-image fa-fw w3-margin-right"></i>GALLERY</a>	
+	</div>
+	<div class="w3-panel w3-large">
+		<a href="https://instagram.com/zatiiwaniiii"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.facebook.com/mrkpopers.mrkpopers"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+		<a href="https://wtsi.me/601137475279"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
+	</div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+	<img class="w3-image" src="images/banner.png" alt="Banner Resume" width="1500" height="600">
+	<span class="w3-button w3-left w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()" title="Open Menu"><i class="fa fa-bars"></i></span>
+	<div class="w3-container">
+ 	<h1><b><u>Skills and Language</u></b></h1>
+</header>
+
+<!--Content-->
+<div class="w3-container w3-padding-large" style="margin-bottom:32px">
+	<h4><b><u>Personal Skills</u></b></h4>
+<ul>
+	<li>Excellent written and verbal communication skills.</li>
+	<li>Highly organized and efficient.</li>
+	<li>Ability to work independently or as part of a team.</li>
+</ul>
+<br>
+	<h4><b><u>Languages</u></b></h4>
+		<p>Bahasa Melayu</p>
+    		<div class="w3-grey">
+		<div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">100%</div>
+		</div>
+		<p>English</p>
+		<div class="w3-grey">
+		<div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+		</div>
+<br>
+<br>
+<br>
+<div class="w3-brown w3-center w3-padding-24">Powered by ©Zati Iwani Muhammad Yun</a></div>
+<br>
+<footer>
+<p style="text-align:center; font-size:10px;">Copyright 2023&copy Zati Iwani Muhammad Yun. Recommended browser: Google Chrome. Resolution 1108 x 1228. Last update: 15<sup>th</sup> January 2023. <br>This site for assignment purpose only.</p></p>
+</footer>
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
+
